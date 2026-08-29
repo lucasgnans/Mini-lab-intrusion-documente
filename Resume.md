@@ -1,4 +1,4 @@
----
+
 
 ## Ce que j'ai appris et axes d'amélioration
 
@@ -27,4 +27,4 @@
 - Choisir une machine où l'élévation de privilèges est nécessaire pour pratiquer.
 - Construire un SIEM et adopter une approche défensive.
 
----
+
