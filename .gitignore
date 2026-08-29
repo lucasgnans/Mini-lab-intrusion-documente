@@ -1,0 +1,73 @@
+# =============================================
+# 1. FICHERS SENSIBLES (MOTS DE PASSE, CLÉS, ETC.)
+# =============================================
+.env
+secrets/
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+credentials*
+id_rsa*
+token.txt
+*.secret
+.htpasswd
+
+# =============================================
+# 2. CAPTURES D'ÉCRAN (PEUVENT CONTENIR DES DONNÉES SENSIBLES)
+# =============================================
+*.png
+*.jpg
+*.jpeg
+*.gif
+Screenshot*.png
+screenshots/private/
+
+# =============================================
+# 3. SORTIES D'OUTILS DE PENTEST
+# =============================================
+recon/
+scans/
+findings/
+*.log
+*.db
+*.db-journal
+nmap_output.txt
+msf_output.txt
+
+# =============================================
+# 4. FICHIERS TEMPORAIRES
+# =============================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================================
+# 5. ENVIRONNEMENTS VIRTUELS
+# =============================================
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# =============================================
+# 6. DOSSIERS D'IDE
+# =============================================
+.vscode/
+.idea/
+*.iml
+
+# =============================================
+# 7. FICHIERS DE CONFIGURATION PERSONNELS
+# =============================================
+*.bak
+*.old
