@@ -6,7 +6,7 @@
 - **Configuration réseau** : Comprendre la différence entre les modes VirtualBox (NAT, Host-Only, Pont) et choisir le bon pour un pentest isolé.
 - **Gestion de session Metasploit** : L'erreur `RHOSTS failed to validate` m'a appris à vérifier méthodiquement mes paramètres avant de lancer un exploit.
 - **Post-exploitation manuelle** : Trouver des fichiers sensibles sans script automatisé demande de la méthode et une bonne connaissance des chemins système Linux.
--**Post-exploitation** : Difficultés a savoir quoi faire une fois l'acces total manque d'experience.
+- **Post-exploitation** : Difficultés a savoir quoi faire une fois l'acces total manque d'experience.
 
 ### Ce que j'ai appris
 - **La reconnaissance est la clé** : Un bon scan `nmap` (`-sV -sC -A`) donne 80% des informations nécessaires.
